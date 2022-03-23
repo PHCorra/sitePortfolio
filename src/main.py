@@ -29,4 +29,4 @@ def main():
 
 # Running the code
 if __name__ == "__main__":
-    app.run(debug=True)  # All changes in the code are reloaded
+    main()
