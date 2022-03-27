@@ -2,8 +2,8 @@ import os
 from flask import Flask, render_template
 from flask_cors import CORS
 
-app = Flask(__name__)
 
+app = Flask(__name__)
 cors = CORS(app, resource={r"/*": {"origins": "*"}})
 # acess page
 # route -> endpoint, path
@@ -16,9 +16,14 @@ def homepage():
     return render_template("index.html")
 
 
-@app.route("/about")
+@app.route("/projects")
+def projects():
+    return render_template("projects.html")
+
+
+@app.route("/curriculum")
 def about():
-    return render_template("about.html")
+    return render_template("cv.html")
 
 
 def main():
@@ -29,4 +34,5 @@ def main():
 
 # Running the code
 if __name__ == "__main__":
+    app.run(debug=True)
     main()
