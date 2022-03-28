@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
     <link rel="stylesheet" href="../static/assets/fonts/ionicons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+    <link rel="stylesheet" href="../static/css/myCss.css">
 
 </head>
 
@@ -34,7 +35,8 @@
                 <div class="avatar" style="background-image:url(&quot;../static/assets/img/avatars/avatar.jpg&quot;);">
                 </div>
                 <div class="about-me">
-                    <p>Olá! Me chamo&nbsp;<strong>Pedro</strong>. Sou um entusiasta da área de tecnologia e mexo com
+                    <p id="paragraph">Olá! Me chamo&nbsp;<strong>Pedro</strong>. Sou um entusiasta da área de tecnologia
+                        e mexo com
                         computadores desde que me conheço por gente. Trabalho como desenvolvedor backend. Atualmente
                         também tenho me envolvido com DevSecOps e a área de SRE</p>
                 </div>
@@ -42,7 +44,7 @@
         </section>
         <section class="portfolio-block skills">
             <div class="container">
-                <div class="heading">
+                <div class="heading" id="specialSkills">
                     <h2>Special Skills</h2>
                 </div>
                 <div class="row">
@@ -85,16 +87,16 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-12 col-lg-5 offset-lg-1 text">
-                    <h3>Website Project</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget velit ultricies, feugiat est
-                        sed, efr nunc, vivamus vel accumsan dui. Quisque ac dolor cursus, volutpat nisl vel, porttitor
-                        eros.</p>
+                    <h3>Teste</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, laboriosam? Nam facilis eum
+                        quis vel vitae quae libero! Aperiam repudiandae distinctio nulla sed quo accusamus repellendus
+                        explicabo voluptas laudantium veniam..</p>
                 </div>
                 <div class="col-md-12 col-lg-5">
                     <div class="portfolio-laptop-mockup">
                         <div class="screen">
                             <div class="screen-content"
-                                style="background-image:url(&quot;assets/img/tech/image6.png&quot;);"></div>
+                                style="background-image:url(&quot;../static/assets/img/tech/image6.png&quot;);"></div>
                         </div>
                         <div class="keyboard"></div>
                     </div>
@@ -104,7 +106,7 @@
     </section>
     <footer class="page-footer">
         <div class="container">
-            <div class="links"><a href="/">About me</a><a href="projects">Projects</a></div>
+            <div class="links"><a href="/" id="about">About me</a><a href="projects" id="projects">Projects</a></div>
             <div class="social-icons"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i
                         class="icon ion-social-instagram-outline"></i></a><a href="#"><i
                         class="icon ion-social-twitter"></i></a></div>
