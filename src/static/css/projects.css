@@ -1,0 +1,21 @@
+:root {
+    --main-bg-color:  #171614;
+    --main-font-color: #ffffff;
+}
+
+body {
+    background-color: var(--main-bg-color); 
+
+}
+
+#titleId {
+    color: var(--main-font-color);
+}
+
+#about {
+    color: var(--main-font-color);
+}
+
+#projects {
+    color: var(--main-font-color);
+}
