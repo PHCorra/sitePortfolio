@@ -2,20 +2,22 @@
     --main-bg-color:  #171614;
     --main-font-color: #ffffff
 }
+
+
 body {
     background-color: var(--main-bg-color); 
 
 }
 
+.text-muted {
+    color: var(--main-font-color) !important;
+}
 #mainContentId {
     color: var(--main-font-color);
     
 }
 
-#principalParagraph p {
-    display: none;
-}
-
+/*Footer editing*/
 #about {
     color: var(--main-font-color);
 }

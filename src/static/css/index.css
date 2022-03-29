@@ -6,7 +6,7 @@ body {
     background-color: var(--main-bg-color); 
 
 }
-
+/*main editing*/
 #paragraph {
     color: var(--main-font-color);
 }
@@ -15,20 +15,20 @@ body {
     color: var(--main-font-color);
 }
 
+
+/*Footer editing*/
 #about {
     color: var(--main-font-color);
 }
-
 #projects {
     color: var(--main-font-color);
 }
 
+
+/*Avatar editing*/
 #avatarId {
     filter: brightness(1.1) contrast(1.1);
 }
-
-
-
 #avatarId:hover {
     box-shadow: 0 0 5px 1px rgba(0, 140, 186, 0.5);
     cursor: pointer;
