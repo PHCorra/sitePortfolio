@@ -21,3 +21,7 @@ body {
 #projects {
     color: var(--main-font-color);
 }
+
+#developer {
+    color: var(--main-font-color);
+}

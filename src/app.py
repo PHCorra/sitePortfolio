@@ -1,10 +1,10 @@
 import os
 from flask import Flask, render_template
-from flask_cors import CORS
+# from flask_cors import CORS
 
 
 app = Flask(__name__)
-cors = CORS(app, resource={r"/*": {"origins": "*"}})
+# cors = CORS(app, resource={r"/*": {"origins": "*"}})
 # acess page
 # route -> endpoint, path
 
