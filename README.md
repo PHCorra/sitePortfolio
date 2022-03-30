@@ -30,7 +30,8 @@
    * Certifique-se de estar na pasta src e rode:
    ``` py -m flask run ```
    
-   à aplicação então irá rodar no localhost:5000.
+   à aplicação então irá rodar no localhost:5000. <br>
+   **LEMBRANDO QUE A INICIALIZAÇÃO DA APLICAÇÃO PODE VARIAR DEPENDENDO DA SUA VERSÃO DO PYTHON, NOME DOS ARQUIVOS E OS PATH'S DO SEU SISTEMA.**
    
   ## Checklist para avaliação
   - [x] O sistema deverá ser desenvolvido utilizando-se HTML 5, com uso apropriado de cada elemento para estruturar o conteúdo da aplicação
@@ -38,6 +39,17 @@
   - [x] O sistema deverá fazer uso de pelo menos um framework de CSS 3 para estilizar a aplicação.
   - [x] O back end do sistema deverá ser desenvolvido em Python 3.
   - [x] O sistema deverá ser implantado em um servidor de aplicação (Heroku).
+
+
+  ## Tecnologias utilizadas
+  Como consta nos requisitos mandatórios, as tecnologias utilizadas foram: <br>
+   -> Python para o backend; <br>
+   -> HTML, CSS; <br>
+   -> Bootstrap, onde nele consta tantos arquivos como JS e CSS. <br>
+   
+   ## Escolha das cores
+   As escolha das cores tive a idéia de mesclar algo mais neutro, como o preto-acinzentado e o branco com o azul com um gradiente para roxo. <br>
+   Essa escolha se deve para gerar um contraste, contraste este com um azul (profissionalismo, estabilidade) e o roxo (sensibilidade e sabedoria).
   
 
 
